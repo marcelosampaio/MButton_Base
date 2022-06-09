@@ -9,8 +9,10 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        Button("Custom text") {
+            print("Button pressed!")
+        }
+        .buttonStyle(MButtonStyle(color: Color.purple, style: .primary))
     }
 }
 
