@@ -12,6 +12,7 @@
 		2DCDC8ED2852782B0039F534 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DCDC8EC2852782B0039F534 /* Assets.xcassets */; };
 		2DCDC8F02852782B0039F534 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DCDC8EF2852782B0039F534 /* Preview Assets.xcassets */; };
 		2DCDC8F72852793D0039F534 /* MButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCDC8F62852793D0039F534 /* MButtonStyle.swift */; };
+		2DCDC8FB285299500039F534 /* MButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCDC8FA285299500039F534 /* MButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		2DCDC8EC2852782B0039F534 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DCDC8EF2852782B0039F534 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2DCDC8F62852793D0039F534 /* MButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MButtonStyle.swift; sourceTree = "<group>"; };
+		2DCDC8FA285299500039F534 /* MButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				2DCDC8E8285278290039F534 /* MButton_BaseApp.swift */,
 				2DCDC8EA285278290039F534 /* ContentView.swift */,
+				2DCDC8FA285299500039F534 /* MButton.swift */,
 				2DCDC8F62852793D0039F534 /* MButtonStyle.swift */,
 				2DCDC8EC2852782B0039F534 /* Assets.xcassets */,
 				2DCDC8EE2852782B0039F534 /* Preview Content */,
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DCDC8EB285278290039F534 /* ContentView.swift in Sources */,
+				2DCDC8FB285299500039F534 /* MButton.swift in Sources */,
 				2DCDC8E9285278290039F534 /* MButton_BaseApp.swift in Sources */,
 				2DCDC8F72852793D0039F534 /* MButtonStyle.swift in Sources */,
 			);
@@ -279,6 +283,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +313,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

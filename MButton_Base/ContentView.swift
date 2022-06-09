@@ -9,10 +9,18 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Button("Custom text") {
-            print("Button pressed!")
+        VStack {
+            // custom button
+            MButton(text: "Let's go", style: .tertiary)
+            
+            // button style
+            Button("Custom text larger than ever thought") {
+                print("Button pressed!")
+            }
+            .buttonStyle(MButtonStyle(style: .primary))
+            
         }
-        .buttonStyle(MButtonStyle(color: Color.purple, style: .primary))
+
     }
 }
 

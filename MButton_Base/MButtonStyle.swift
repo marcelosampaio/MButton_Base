@@ -12,12 +12,9 @@ enum StyleType {
 }
 
 struct MButtonStyle: ButtonStyle {
-    let color: Color
     let style: StyleType
     
-    init(color: Color,
-         style: StyleType) {
-        self.color = color
+    init(style: StyleType) {
         self.style = style
     }
     
@@ -26,22 +23,27 @@ struct MButtonStyle: ButtonStyle {
             configuration
                 .label
                 .padding()
-                .background(color)
+                .background(.orange)
                 .foregroundColor(.white)
-    //            .clipShape(Capsule())
-    //            .scaleEffect(configuration.isPressed ? 1.2 : 1)
-                .animation(.easeOut(duration: 0.2), value: configuration.isPressed)
-
-        }else{
+                .cornerRadius(8)
+                .border(.clear)
+                .font(.system(size: 20, weight: .bold, design: .default))
+        }else if style == .secondary {
             configuration
                 .label
                 .padding()
-                .background(.blue)
-                .foregroundColor(.white)
-    //            .clipShape(Capsule())
-    //            .scaleEffect(configuration.isPressed ? 1.2 : 1)
-                .animation(.easeOut(duration: 0.2), value: configuration.isPressed)
-
+                .background(.clear)
+                .foregroundColor(.brown)
+                .border(.brown)
+                .cornerRadius(8)
+                .font(.system(size: 20, weight: .bold, design: .default))
+        }else if style == .tertiary {
+            configuration
+                .label
+                .padding()
+                .background(.clear)
+                .foregroundColor(.pink)
+                .font(.system(size: 20, weight: .bold, design: .default))
         }
     }
 }
