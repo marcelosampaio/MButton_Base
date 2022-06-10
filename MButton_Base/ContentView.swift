@@ -26,9 +26,19 @@ struct ContentView: View {
             // tertiary button
             MButton(text: "Tertiary Button", style: .tertiary)
             
-        
-        }
+            
+            // MPrimary Button
+            MPrimaryButton(text: "MPrimaryBook")
+            
+            // MSecondary Button
+            MSecondaryButton(text: "MSecondaryButton")
+            
+            // MTErtiary Button
+            MTertiaryButton(text: "MTertiaryButton")
+            
+            
 
+        }
     }
 }
 

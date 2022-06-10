@@ -13,6 +13,9 @@
 		2DCDC8F02852782B0039F534 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DCDC8EF2852782B0039F534 /* Preview Assets.xcassets */; };
 		2DCDC8F72852793D0039F534 /* MButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCDC8F62852793D0039F534 /* MButtonStyle.swift */; };
 		2DCDC8FB285299500039F534 /* MButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCDC8FA285299500039F534 /* MButton.swift */; };
+		2DCDC8FD2852D96F0039F534 /* MPrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCDC8FC2852D96F0039F534 /* MPrimaryButton.swift */; };
+		2DCDC8FF2852DBE00039F534 /* MSecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCDC8FE2852DBE00039F534 /* MSecondaryButton.swift */; };
+		2DCDC9012852E2CC0039F534 /* MTertiaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCDC9002852E2CC0039F534 /* MTertiaryButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,9 @@
 		2DCDC8EF2852782B0039F534 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2DCDC8F62852793D0039F534 /* MButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MButtonStyle.swift; sourceTree = "<group>"; };
 		2DCDC8FA285299500039F534 /* MButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MButton.swift; sourceTree = "<group>"; };
+		2DCDC8FC2852D96F0039F534 /* MPrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPrimaryButton.swift; sourceTree = "<group>"; };
+		2DCDC8FE2852DBE00039F534 /* MSecondaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSecondaryButton.swift; sourceTree = "<group>"; };
+		2DCDC9002852E2CC0039F534 /* MTertiaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTertiaryButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 				2DCDC8E8285278290039F534 /* MButton_BaseApp.swift */,
 				2DCDC8EA285278290039F534 /* ContentView.swift */,
 				2DCDC8FA285299500039F534 /* MButton.swift */,
+				2DCDC8FC2852D96F0039F534 /* MPrimaryButton.swift */,
+				2DCDC8FE2852DBE00039F534 /* MSecondaryButton.swift */,
+				2DCDC9002852E2CC0039F534 /* MTertiaryButton.swift */,
 				2DCDC8F62852793D0039F534 /* MButtonStyle.swift */,
 				2DCDC8EC2852782B0039F534 /* Assets.xcassets */,
 				2DCDC8EE2852782B0039F534 /* Preview Content */,
@@ -143,7 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DCDC8FD2852D96F0039F534 /* MPrimaryButton.swift in Sources */,
 				2DCDC8EB285278290039F534 /* ContentView.swift in Sources */,
+				2DCDC8FF2852DBE00039F534 /* MSecondaryButton.swift in Sources */,
+				2DCDC9012852E2CC0039F534 /* MTertiaryButton.swift in Sources */,
 				2DCDC8FB285299500039F534 /* MButton.swift in Sources */,
 				2DCDC8E9285278290039F534 /* MButton_BaseApp.swift in Sources */,
 				2DCDC8F72852793D0039F534 /* MButtonStyle.swift in Sources */,

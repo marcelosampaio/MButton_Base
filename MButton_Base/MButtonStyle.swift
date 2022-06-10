@@ -33,8 +33,8 @@ struct MButtonStyle: ButtonStyle {
                 .label
                 .padding()
                 .background(.clear)
-                .foregroundColor(.brown)
-                .border(.brown)
+                .foregroundColor(.yellow)
+                .border(.yellow)
                 .cornerRadius(8)
                 .font(.system(size: 20, weight: .bold, design: .default))
         }else if style == .tertiary {
